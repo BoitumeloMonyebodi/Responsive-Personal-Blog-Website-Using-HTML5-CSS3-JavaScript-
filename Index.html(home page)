@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - My Personal Blog</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Personal Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+  <!-- Hero Section with Background Image -->
+  <main>
+    <section class="hero">
+      <h2>Welcome to My Blog</h2>
+      <p>Explore my journey as a web developer, my projects, and the tools I use.</p>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile">
+      <img src="images/profile.jpg" alt="My profile photo" class="profile-img"/>
+      <p>Hi, I’m [Your Name], a passionate web developer. I started coding a few years ago and have been working on various projects since then. This blog is where I share my journey and the lessons I’ve learned along the way.</p>
+    </section>
+
+    <!-- Blog Post Preview with Image -->
+    <section class="blog-preview">
+      <article>
+        <h3>How I Started Coding</h3>
+        <img src="images/blog1.jpg" alt="Blog post image" class="blog-img"/>
+        <p>It all began with a curiosity for how websites work...</p>
+        <a href="#">Read more</a>
+      </article>
+
+      <article>
+        <h3>My Favorite Tools as a Web Developer</h3>
+        <p>From VS Code to GitHub, here are my go-to tools...</p>
+        <a href="#">Read more</a>
+      </article>
+    </section>
+  </main>
+  
+  <footer>&copy; 2025 Your Name</footer>
+</body>
+</html>
