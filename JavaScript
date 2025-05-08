@@ -1,22 +1,25 @@
-// Form validation for contact page
+// Function to toggle "Read More" content visibility
+function toggleReadMore(link) {
+  const fullContent = link.previousElementSibling.nextElementSibling; // Get the hidden content
+  const previewContent = link.previousElementSibling; // Get the preview content
+  
+  if (fullContent.style.display === "none") {
+    fullContent.style.display = "block";
+    link.textContent = "Read less"; // Change button text to "Read less"
+  } else {
+    fullContent.style.display = "none";
+    link.textContent = "Read more"; // Change button text back to "Read more"
+  }
+}
+
+// Form validation (Contact Form)
 function validateForm() {
-  const name = document.forms["contactForm"]["name"].value.trim();
-  const email = document.forms["contactForm"]["email"].value.trim();
-  const message = document.forms["contactForm"]["message"].value.trim();
+  const name = document.forms["contactForm"]["name"].value;
+  const email = document.forms["contactForm"]["email"].value;
+  const message = document.forms["contactForm"]["message"].value;
 
-  // Ensure all fields are filled out
-  if (!name || !email || !message) {
-    alert("Please fill out all fields.");
+  if (name === "" || email === "" || message === "") {
+    alert("All fields must be filled out.");
     return false;
   }
-
-  // Basic email format check
-  const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-  if (!emailPattern.test(email)) {
-    alert("Please enter a valid email address.");
-    return false;
-  }
-
-  alert("Thank you! Your message has been sent.");
-  return true;
 }
