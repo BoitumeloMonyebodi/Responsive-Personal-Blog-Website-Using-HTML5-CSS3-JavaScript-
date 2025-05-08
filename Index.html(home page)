@@ -36,7 +36,7 @@
     <section class="blog-preview">
       <article>
         <h3>How I Started Coding</h3>
-        <img src="images/blog1.jpg" alt="Blog post image" class="blog-img"/>
+        <img src="images/IMG-20231118-WA0009.jpg" alt="Blog post image" class="blog-img"/>
         <p class="preview">It all began with a curiosity for how websites work...</p>
         <p class="full-content" style="display:none;">This curiosity led me to start learning HTML, CSS, and JavaScript, and eventually build my first website...</p>
         <a href="javascript:void(0);" onclick="toggleReadMore(this)">Read more</a>
