@@ -26,7 +26,7 @@
     <!-- Profile Section -->
     <section class="profile">
       <img src="images/profile.jpg" alt="My profile photo" class="profile-img"/>
-      <p>Hi, I’m [Your Name], a passionate web developer. I started coding a few years ago and have been working on various projects since then. This blog is where I share my journey and the lessons I’ve learned along the way.</p>
+      <p>Hi, I’m Boitumelo, a passionate web developer. I started coding a few years ago and have been working on various projects since then. This blog is where I share my journey and the lessons I’ve learned along the way.</p>
     </section>
 
     <!-- Blog Post Preview with Image -->
@@ -46,6 +46,6 @@
     </section>
   </main>
   
-  <footer>&copy; 2025 Your Name</footer>
+  <footer>&copy; 2025 Boitumelo</footer>
 </body>
 </html>
