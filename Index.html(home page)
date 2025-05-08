@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home - My Personal Blog</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/scripts.js" defer></script>
 </head>
 <body>
   <header>
@@ -26,7 +28,7 @@
     <!-- Profile Section -->
     <section class="profile">
       <img src="images/profile.jpg" alt="My profile photo" class="profile-img"/>
-      <p>Hi, I’m Boitumelo, a passionate web developer. I started coding a few years ago and have been working on various projects since then. This blog is where I share my journey and the lessons I’ve learned along the way.</p>
+      <p>Hi, I’m Boitumelo Monyebodi, a passionate web developer. I started coding a few years ago and have been working on various projects since then. This blog is where I share my journey and the lessons I’ve learned along the way.</p>
     </section>
 
     <!-- Blog Post Preview with Image -->
@@ -34,8 +36,9 @@
       <article>
         <h3>How I Started Coding</h3>
         <img src="images/blog1.jpg" alt="Blog post image" class="blog-img"/>
-        <p>It all began with a curiosity for how websites work...</p>
-        <a href="#">Read more</a>
+        <p class="preview">It all began with a curiosity for how websites work...</p>
+        <p class="full-content" style="display:none;">This curiosity led me to start learning HTML, CSS, and JavaScript, and eventually build my first website...</p>
+        <a href="javascript:void(0);" onclick="toggleReadMore(this)">Read more</a>
       </article>
 
       <article>
